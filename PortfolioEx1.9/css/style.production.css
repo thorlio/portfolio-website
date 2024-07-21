@@ -111,18 +111,13 @@ a:focus {
   outline: 2px solid blue;
 }
 
-.button__secondary {
-  background-color: #880808;
-  color: #2b2b2b;
-}
-
 .button,
 button {
   border: none;
   display: inline-block;
   font-family: inherit;
   background-color: gray;
-  color: rgb(34, 31, 31);
+  color: #880808;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
@@ -137,7 +132,12 @@ button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+.button__secondary {
+  background-color: #880808;
+  color: black;
 }
 
 .contact {
@@ -179,7 +179,6 @@ button:focus,
 }
 
 .grid {
-  background-color: none;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
@@ -207,10 +206,10 @@ button:focus,
 }
 
 .grid-item {
-  background-color: #dad4d3;
   padding: 20px;
   text-align: center;
   width: 300px;
+  background-color: #d1ccc7;
 }
 
 .work-projects {
