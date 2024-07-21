@@ -1,0 +1,99 @@
+/*
+Colors used
+
+Text color (#red): #e5f7f8;
+Primary Color (red): #e5f7f8;
+Secondary Color (green): #357b70;
+
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: #880808;
+  background-color: #e5f7f8;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-style: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: italic;
+
+  /* font-variant: small-caps; */
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a {
+  color: #357b70;
+}
+
+a:visited {
+  /* visited link */
+  color: blue;
+}
+
+a:hover {
+  /* No underlining when hovering over a link */
+  color: #f00;
+}
+
+a:active {
+  /* selected link */
+  color: #489c79;
+}
+
+a:focus {
+  /* add a blue outline around the link when it has focus */
+  outline: 2px solid blue;
+}
+
+button {
+  /* overwrites browser defaults and resets the border */
+  border: none;
+
+  /* takes the font from the outer container */
+  font-family: inherit;
+
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  background-color: #9ab4b0;
+  color: white;
+  text-decoration: none;
+
+  /* adds spacing to the button (this will be discussed more in-depth later) */
+  padding: 10px;
+  border-radius: 3px;
+
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+button:hover,
+button:focus {
+  /* lets the mouse appear as a hand when hovering over the button */
+  cursor: pointer;
+
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.8;
+}
+
+.button_secondary {
+  background-color: #f4cccc;
+  color: #2b2b2b;
+}
+
